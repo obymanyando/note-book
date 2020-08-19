@@ -6,5 +6,23 @@
 			"dependsOn": [],
 			"customAuth": false
 		}
+	},
+	"api": {
+		"notebook": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"defaultAuthentication": {
+						"authenticationType": "API_KEY",
+						"apiKeyConfig": {
+							"apiKeyExpirationDays": 15,
+							"description": "noteApp"
+						}
+					},
+					"additionalAuthenticationProviders": []
+				}
+			}
+		}
 	}
 }
