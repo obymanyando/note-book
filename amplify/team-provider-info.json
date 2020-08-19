@@ -10,6 +10,11 @@
             "StackName": "amplify-notebook-dev-04029",
             "StackId": "arn:aws:cloudformation:us-east-1:618113211548:stack/amplify-notebook-dev-04029/70d5ed30-e19b-11ea-9dcb-0ee443750bc7",
             "AmplifyAppId": "dhrcs9pli41es"
+        },
+        "categories": {
+            "auth": {
+                "notebook4d397867": {}
+            }
         }
     }
 }

@@ -1,1 +1,10 @@
-{}
+{
+	"auth": {
+		"notebook4d397867": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
